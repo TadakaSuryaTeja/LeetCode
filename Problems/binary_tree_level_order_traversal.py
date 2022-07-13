@@ -21,7 +21,7 @@ class Solution:
                 if node.left:
                     temp_val.append(node.left)
                 if node.right:
-                    temp_val.append(node.left)
+                    temp_val.append(node.right)
 
             res.append(ans)
             solve(temp_val)
